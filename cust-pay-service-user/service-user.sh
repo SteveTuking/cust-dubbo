@@ -8,7 +8,7 @@ export JRE_HOME=$JAVA_HOME/jre
 APP_NAME=user
 
 SERVICE_DIR=/home/cust/service/$APP_NAME
-SERVICE_NAME=cust-service-$APP_NAME
+SERVICE_NAME=cust-pay-service-$APP_NAME
 JAR_NAME=$SERVICE_NAME\.jar
 PID=$SERVICE_NAME\.pid
 
