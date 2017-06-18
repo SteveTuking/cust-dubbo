@@ -1,3 +1,13 @@
+/target/
+
+.project
+/target/
+/bin/
+
+
+.settings/
+.classpath
+.externalToolBuilders/
 *.class
 
 # Mobile Tools for Java (J2ME)

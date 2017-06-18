@@ -112,6 +112,17 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<configuration>
+					<target name="copylicense">
+						<copy todir="${project.build.directory}"
+							file="service-user.sh"></copy>
+					</target>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
