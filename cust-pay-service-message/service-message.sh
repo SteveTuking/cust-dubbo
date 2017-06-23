@@ -5,7 +5,7 @@ export JAVA_HOME=/usr/local/jdk1.8.0_131
 export JRE_HOME=$JAVA_HOME/jre
 
 ## service name
-APP_NAME=point
+APP_NAME=message
 
 SERVICE_DIR=/home/cust/service/$APP_NAME
 SERVICE_NAME=cust-pay-service-$APP_NAME
