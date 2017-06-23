@@ -163,8 +163,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>cn.cust.pay.service</groupId>
-			<artifactId>cust-pay-service-accounting</artifactId>
+			<groupId>cn.cust.pay.facade</groupId>
+			<artifactId>cust-pay-service-accounting-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 
