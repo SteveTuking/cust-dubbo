@@ -15,10 +15,10 @@
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="clone">
 		<!-- 基本属性driverClassName、 url、user、password -->
-		<property name="driverClassName" value="${accounting.jdbc.driver}" />
-		<property name="url" value="${accounting.jdbc.url}" />
-		<property name="username" value="${accounting.jdbc.username}" />
-		<property name="password" value="${accounting.jdbc.password}" />
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
 
 		<!-- 配置初始化大小、最小、最大 -->
 		<!-- 通常来说，只需要修改initialSize、minIdle、maxActive -->
