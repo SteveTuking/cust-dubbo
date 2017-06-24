@@ -167,6 +167,11 @@
 			<artifactId>cust-pay-service-accounting-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>cn.cust.pay.facade</groupId>
+			<artifactId>cust-pay-service-point-api</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 
 		<!-- http://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
 		<dependency>
