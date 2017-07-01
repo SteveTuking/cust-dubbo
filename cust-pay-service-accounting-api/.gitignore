@@ -1,0 +1,14 @@
+/target/
+
+.project
+/bin/
+
+
+.settings/
+.classpath
+.externalToolBuilders/
+
+*dist/
+*.war
+*.idea
+*node_modules/
