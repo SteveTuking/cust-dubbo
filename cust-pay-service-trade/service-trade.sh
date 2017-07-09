@@ -17,7 +17,7 @@ cd $SERVICE_DIR
 case "$1" in
 
     start)
-        nohup $JRE_HOME/bin/java -Xms64m -Xmx128m -jar $JAR_NAME >/dev/null 2>&1 &
+        nohup $JRE_HOME/bin/java -Xms32m -Xmx64m -jar $JAR_NAME >/dev/null 2>&1 &
         echo $! > $SERVICE_DIR/$PID
         echo "=== start $SERVICE_NAME"
         ;;
