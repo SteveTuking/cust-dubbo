@@ -243,6 +243,24 @@
 			<artifactId>zkclient</artifactId>
 		</dependency>
 		<!-- dubbo end -->
+		
+		<!-- tcc-transaction begin -->
+		<dependency>
+			<groupId>org.mengyun</groupId>
+			<artifactId>tcc-transaction-spring</artifactId>
+			<version>${tcc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mengyun</groupId>
+			<artifactId>tcc-transaction-core</artifactId>
+			<version>${tcc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mengyun</groupId>
+			<artifactId>tcc-transaction-api</artifactId>
+			<version>${tcc.version}</version>
+		</dependency>
+		<!-- tcc-transaction end -->
 
 	</dependencies>
 </project>

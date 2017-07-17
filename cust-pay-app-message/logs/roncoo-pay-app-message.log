@@ -1,0 +1,377 @@
+[INFO ][20170717 21:03:53,040][AbstractApplicationContext:513] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4973813a: startup date [Mon Jul 17 21:03:53 CST 2017]; root of context hierarchy
+[INFO ][20170717 21:03:53,117][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-context.xml]
+[INFO ][20170717 21:03:53,973][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring-dubbo-consumer.xml]
+[INFO ][20170717 21:03:54,056][?:?] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO ][20170717 21:03:54,203][PropertiesLoaderSupport:172] Loading properties file from class path resource [public_system.properties]
+[INFO ][20170717 21:03:54,204][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq_config.properties]
+[INFO ][20170717 21:03:54,209][AutowiredAnnotationBeanPostProcessor:141] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ][20170717 21:03:54,683][AbstractRegistry:232]  [DUBBO] Load registry store file /Users/zhangbing/.dubbo/dubbo-registry-47.93.23.61.cache, data: {com.roncoo.pay.service.user.api.RpPayWayService=empty://10.10.92.133/com.roncoo.pay.service.user.api.RpPayWayService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayWayService&methods=createPayWay,listByProductCode,getByPayWayTypeCode,updateData,getDataById,saveData,listAll,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683286 empty://10.10.92.133/com.roncoo.pay.service.user.api.RpPayWayService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayWayService&methods=createPayWay,listByProductCode,getByPayWayTypeCode,updateData,getDataById,saveData,listAll,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683286 dubbo://47.94.16.18:20887/com.roncoo.pay.service.user.api.RpPayWayService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayWayService&methods=listByProductCode,createPayWay,getByPayWayTypeCode,updateData,getDataById,saveData,listAll,listPage&pid=4903&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198396100 dubbo://47.94.92.65:20887/com.roncoo.pay.service.user.api.RpPayWayService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayWayService&methods=listByProductCode,createPayWay,getByPayWayTypeCode,updateData,getDataById,saveData,listAll,listPage&pid=13952&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198633070, com.roncoo.pay.service.account.api.RpAccountHistoryService=empty://10.10.92.133/com.roncoo.pay.service.account.api.RpAccountHistoryService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountHistoryService&methods=updateData,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198682877 empty://10.10.92.133/com.roncoo.pay.service.account.api.RpAccountHistoryService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountHistoryService&methods=updateData,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198682877 dubbo://47.94.92.65:20881/com.roncoo.pay.service.account.api.RpAccountHistoryService?anyhost=true&application=roncoo-pay-service-account&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountHistoryService&methods=updateData,getDataById,saveData,listPage&pid=13760&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198553042 dubbo://47.94.16.18:20881/com.roncoo.pay.service.account.api.RpAccountHistoryService?anyhost=true&application=roncoo-pay-service-account&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountHistoryService&methods=updateData,getDataById,saveData,listPage&pid=4696&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198289739, com.roncoo.pay.service.notify.aip.RpNotifyService=empty://10.10.92.133/com.roncoo.pay.service.notify.aip.RpNotifyService?application=roncoo-pay-app-notify&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.notify.aip.RpNotifyService&methods=createNotifyRecord,notifySend,createNotifyRecordLog,updateNotifyRecord,getNotifyByMerchantNoAndMerchantOrderNoAndNotifyType,queryNotifyRecordListPage,getNotifyRecordById&pid=1185&side=consumer&timestamp=1500197499078 empty://10.10.92.133/com.roncoo.pay.service.notify.aip.RpNotifyService?application=roncoo-pay-app-notify&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.notify.aip.RpNotifyService&methods=createNotifyRecord,notifySend,createNotifyRecordLog,updateNotifyRecord,getNotifyByMerchantNoAndMerchantOrderNoAndNotifyType,queryNotifyRecordListPage,getNotifyRecordById&pid=1185&side=consumer&timestamp=1500197499078 dubbo://47.94.16.18:20883/com.roncoo.pay.service.notify.aip.RpNotifyService?anyhost=true&application=roncoo-pay-service-notify&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.notify.aip.RpNotifyService&methods=createNotifyRecord,notifySend,createNotifyRecordLog,updateNotifyRecord,getNotifyByMerchantNoAndMerchantOrderNoAndNotifyType,queryNotifyRecordListPage,getNotifyRecordById&pid=20908&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1499583588684 dubbo://47.94.92.65:20883/com.roncoo.pay.service.notify.aip.RpNotifyService?anyhost=true&application=roncoo-pay-service-notify&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.notify.aip.RpNotifyService&methods=notifySend,createNotifyRecord,createNotifyRecordLog,updateNotifyRecord,getNotifyByMerchantNoAndMerchantOrderNoAndNotifyType,queryNotifyRecordListPage,getNotifyRecordById&pid=25496&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1499583960412, com.roncoo.pay.service.user.api.RpUserPayInfoService=empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserPayInfoService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayInfoService&methods=updateData,getByUserNo,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683820 empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserPayInfoService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayInfoService&methods=updateData,getByUserNo,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683820 dubbo://47.94.92.65:20887/com.roncoo.pay.service.user.api.RpUserPayInfoService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayInfoService&methods=getByUserNo,updateData,getDataById,saveData,listPage&pid=13952&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198633465 dubbo://47.94.16.18:20887/com.roncoo.pay.service.user.api.RpUserPayInfoService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayInfoService&methods=updateData,getByUserNo,getDataById,saveData,listPage&pid=4903&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198396569, com.roncoo.pay.service.user.api.RpPayProductService=empty://10.10.92.133/com.roncoo.pay.service.user.api.RpPayProductService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayProductService&methods=createPayProduct,updateData,audit,getDataById,getByProductCode,saveData,listAll,listPage,deletePayProduct&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683099 empty://10.10.92.133/com.roncoo.pay.service.user.api.RpPayProductService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayProductService&methods=createPayProduct,updateData,audit,getDataById,getByProductCode,saveData,listAll,listPage,deletePayProduct&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683099 dubbo://47.94.16.18:20887/com.roncoo.pay.service.user.api.RpPayProductService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayProductService&methods=createPayProduct,updateData,audit,getDataById,getByProductCode,saveData,listAll,listPage,deletePayProduct&pid=4903&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198395886 dubbo://47.94.92.65:20887/com.roncoo.pay.service.user.api.RpPayProductService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpPayProductService&methods=createPayProduct,updateData,audit,getDataById,getByProductCode,saveData,listAll,listPage,deletePayProduct&pid=13952&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198632972, com.roncoo.pay.service.trade.api.RpTradePaymentQueryService=empty://10.10.92.133/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198684165 empty://10.10.92.133/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198684165 dubbo://47.94.16.18:20886/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=7471&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500199043404 dubbo://47.94.92.65:20886/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=16130&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500199051183, com.roncoo.pay.service.accounting.api.RpAccountingVoucherService=empty://10.10.92.133/com.roncoo.pay.service.accounting.api.RpAccountingVoucherService?application=roncoo-pay-app-queue&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.accounting.api.RpAccountingVoucherService&methods=getAccountingVoucherByRequestNo,getMapBy,getBy,updateAccountingVoucher,createAccountingVoucher,listPage&pid=1186&side=consumer&timestamp=1500197513730 empty://10.10.92.133/com.roncoo.pay.service.accounting.api.RpAccountingVoucherService?application=roncoo-pay-app-queue&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.accounting.api.RpAccountingVoucherService&methods=getAccountingVoucherByRequestNo,getMapBy,getBy,updateAccountingVoucher,createAccountingVoucher,listPage&pid=1186&side=consumer&timestamp=1500197513730 dubbo://47.94.92.65:20882/com.roncoo.pay.service.accounting.api.RpAccountingVoucherService?anyhost=true&application=roncoo-pay-service-accounting&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.accounting.api.RpAccountingVoucherService&methods=getAccountingVoucherByRequestNo,getMapBy,getBy,updateAccountingVoucher,createAccountingVoucher,listPage&pid=25026&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1499583078192 dubbo://47.94.16.18:20882/com.roncoo.pay.service.accounting.api.RpAccountingVoucherService?anyhost=true&application=roncoo-pay-service-accounting&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.accounting.api.RpAccountingVoucherService&methods=getAccountingVoucherByRequestNo,getBy,getMapBy,updateAccountingVoucher,createAccountingVoucher,listPage&pid=20742&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1499582700828, com.roncoo.pay.service.user.api.RpUserPayConfigService=empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserPayConfigService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayConfigService&methods=listByProductCode,updateData,getDataById,saveData,updateUserPayConfig,deleteUserPayConfig,getByPayKey,getByUserNo,audit,createUserPayConfig,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683535 empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserPayConfigService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayConfigService&methods=listByProductCode,updateData,getDataById,saveData,updateUserPayConfig,deleteUserPayConfig,getByPayKey,getByUserNo,audit,createUserPayConfig,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198683535 dubbo://47.94.92.65:20887/com.roncoo.pay.service.user.api.RpUserPayConfigService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayConfigService&methods=listByProductCode,updateData,getDataById,saveData,updateUserPayConfig,deleteUserPayConfig,getByUserNo,audit,getByPayKey,createUserPayConfig,listPage&pid=13952&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198633297 dubbo://47.94.16.18:20887/com.roncoo.pay.service.user.api.RpUserPayConfigService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserPayConfigService&methods=listByProductCode,updateData,getDataById,saveData,updateUserPayConfig,deleteUserPayConfig,audit,getByPayKey,getByUserNo,createUserPayConfig,listPage&pid=4903&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198396381, com.roncoo.pay.service.message.api.RpTransactionMessageService=empty://10.10.92.133/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-web-message&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,reSendMessage,deleteMessageByMessageId,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198676343 empty://10.10.92.133/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-web-message&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,reSendMessage,deleteMessageByMessageId,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198676343 dubbo://47.94.92.65:20888/com.roncoo.pay.service.message.api.RpTransactionMessageService?anyhost=true&application=roncoo-pay-service-message&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,reSendMessage,deleteMessageByMessageId,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=25160&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1499583319878 dubbo://47.94.16.18:20888/com.roncoo.pay.service.message.api.RpTransactionMessageService?anyhost=true&application=roncoo-pay-service-message&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,reSendMessage,deleteMessageByMessageId,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=4758&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198333380, com.roncoo.pay.service.user.api.RpUserInfoService=empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserInfoService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserInfoService&methods=getDataByMerchentNo,updateData,getDataById,saveData,listAll,listPage,registerOffline&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198682671 empty://10.10.92.133/com.roncoo.pay.service.user.api.RpUserInfoService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserInfoService&methods=getDataByMerchentNo,updateData,getDataById,saveData,listAll,listPage,registerOffline&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198682671 dubbo://47.94.92.65:20887/com.roncoo.pay.service.user.api.RpUserInfoService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserInfoService&methods=getDataByMerchentNo,updateData,getDataById,saveData,listAll,listPage,registerOffline&pid=13952&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198633185 dubbo://47.94.16.18:20887/com.roncoo.pay.service.user.api.RpUserInfoService?anyhost=true&application=roncoo-pay-service-user&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.user.api.RpUserInfoService&methods=getDataByMerchentNo,updateData,getDataById,saveData,listAll,registerOffline,listPage&pid=4903&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198396237, com.roncoo.pay.service.account.api.RpAccountService=empty://10.10.92.133/com.roncoo.pay.service.account.api.RpAccountService?application=roncoo-pay-web-boss&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountService&methods=updateData,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198681752 empty://10.10.92.133/com.roncoo.pay.service.account.api.RpAccountService?application=roncoo-pay-web-boss&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountService&methods=updateData,getDataById,saveData,listPage&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198681752 dubbo://47.94.16.18:20881/com.roncoo.pay.service.account.api.RpAccountService?anyhost=true&application=roncoo-pay-service-account&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountService&methods=updateData,getDataById,saveData,listPage&pid=4696&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198288750 dubbo://47.94.92.65:20881/com.roncoo.pay.service.account.api.RpAccountService?anyhost=true&application=roncoo-pay-service-account&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.account.api.RpAccountService&methods=updateData,getDataById,saveData,listPage&pid=13760&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198552182, com.roncoo.pay.service.trade.api.RpTradePaymentManagerService=empty://10.10.92.133/com.roncoo.pay.service.trade.api.RpTradePaymentManagerService?application=roncoo-pay-web-gateway&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentManagerService&methods=completeScanPayByResult,completeScanPay,initDirectScanPay,initNonDirectScanPay,getMerchantNotifyMessage,completeTestPay,verifyNotify,toNonDirectScanPay&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198669548 empty://10.10.92.133/com.roncoo.pay.service.trade.api.RpTradePaymentManagerService?application=roncoo-pay-web-gateway&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentManagerService&methods=completeScanPayByResult,completeScanPay,initDirectScanPay,initNonDirectScanPay,getMerchantNotifyMessage,completeTestPay,verifyNotify,toNonDirectScanPay&pid=1328&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500198669548 dubbo://47.94.92.65:20886/com.roncoo.pay.service.trade.api.RpTradePaymentManagerService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentManagerService&methods=completeScanPayByResult,completeScanPay,initDirectScanPay,initNonDirectScanPay,getMerchantNotifyMessage,completeTestPay,verifyNotify,toNonDirectScanPay&pid=13912&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198624554 dubbo://47.94.16.18:20886/com.roncoo.pay.service.trade.api.RpTradePaymentManagerService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentManagerService&methods=completeScanPayByResult,completeScanPay,initDirectScanPay,initNonDirectScanPay,getMerchantNotifyMessage,completeTestPay,verifyNotify,toNonDirectScanPay&pid=4854&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500198381650}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20170717 21:03:54,730][ZkEventThread:64] Starting ZkClient event thread.
+[INFO ][20170717 21:03:54,756][Environment:100] Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+[INFO ][20170717 21:03:54,757][Environment:100] Client environment:host.name=localhost
+[INFO ][20170717 21:03:54,757][Environment:100] Client environment:java.version=1.8.0_111
+[INFO ][20170717 21:03:54,758][Environment:100] Client environment:java.vendor=Oracle Corporation
+[INFO ][20170717 21:03:54,758][Environment:100] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
+[INFO ][20170717 21:03:54,758][Environment:100] Client environment:java.class.path=/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-app-message/target/classes:/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-common-core/target/classes:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-core/4.0.5.RELEASE/spring-core-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-aop/4.0.5.RELEASE/spring-aop-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-aspects/4.0.5.RELEASE/spring-aspects-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-context/4.0.5.RELEASE/spring-context-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-context-support/4.0.5.RELEASE/spring-context-support-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-expression/4.0.5.RELEASE/spring-expression-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-instrument/4.0.5.RELEASE/spring-instrument-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-instrument-tomcat/4.0.5.RELEASE/spring-instrument-tomcat-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-jms/4.0.5.RELEASE/spring-jms-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-orm/4.0.5.RELEASE/spring-orm-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-oxm/4.0.5.RELEASE/spring-oxm-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/springframework/spring-webmvc-portlet/4.0.5.RELEASE/spring-webmvc-portlet-4.0.5.RELEASE.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/mybatis/mybatis/3.2.2/mybatis-3.2.2.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/javax/javaee-api/7.0/javaee-api-7.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/javax/activation/activation/1.1/activation-1.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/cglib/cglib/2.2.2/cglib-2.2.2.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/asm/asm/3.3.1/asm-3.3.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/jstl/jstl/1.2/jstl-1.2.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/alibaba/druid/0.2.23/druid-0.2.23.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-codec/commons-codec/1.8/commons-codec-1.8.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/jdom/jdom/1.1.3/jdom-1.1.3.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/activemq/activemq-pool/5.8.0/activemq-pool-5.8.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/activemq/activemq-client/5.8.0/activemq-client-5.8.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/geronimo/specs/geronimo-jta_1.0.1B_spec/1.0.1/geronimo-jta_1.0.1B_spec-1.0.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-pool/commons-pool/1.6/commons-pool-1.6.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/jaxen/jaxen/1.1.1/jaxen-1.1.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/jdom/jdom/1.0/jdom-1.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xml-apis/xml-apis/1.3.02/xml-apis-1.3.02.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xom/xom/1.0/xom-1.0.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/ibm/icu/icu4j/2.6.1/icu4j-2.6.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/jline/jline/0.9.94/jline-0.9.94.jar:/Users/zhangbing/Public/yonyou/mvnrepo/repo/com/101tec/zkclient/0.3/zkclient-0.3.jar:/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-common-config/target/classes:/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-service-message-api/target/classes:/Users/zhangbing/Public/yonyou/mvnrepo/repo/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-service-trade-api/target/classes
+[INFO ][20170717 21:03:54,759][Environment:100] Client environment:java.library.path=/Users/zhangbing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ][20170717 21:03:54,760][Environment:100] Client environment:java.io.tmpdir=/var/folders/60/kfjr7_715yqfq2b0krxpz1zh0000gn/T/
+[INFO ][20170717 21:03:54,761][Environment:100] Client environment:java.compiler=<NA>
+[INFO ][20170717 21:03:54,762][Environment:100] Client environment:os.name=Mac OS X
+[INFO ][20170717 21:03:54,762][Environment:100] Client environment:os.arch=x86_64
+[INFO ][20170717 21:03:54,763][Environment:100] Client environment:os.version=10.12.5
+[INFO ][20170717 21:03:54,763][Environment:100] Client environment:user.name=zhangbing
+[INFO ][20170717 21:03:54,763][Environment:100] Client environment:user.home=/Users/zhangbing
+[INFO ][20170717 21:03:54,764][Environment:100] Client environment:user.dir=/Users/zhangbing/Public/cust/workspace/dts/cust-dubbo/cust-pay-app-message
+[INFO ][20170717 21:03:54,765][ZooKeeper:438] Initiating client connection, connectString=47.93.23.61:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@6a62689d
+[INFO ][20170717 21:03:54,851][ClientCnxn$SendThread:966] Opening socket connection to server 47.93.23.61/47.93.23.61:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20170717 21:03:56,995][ClientCnxn$SendThread:849] Socket connection established to 47.93.23.61/47.93.23.61:2181, initiating session
+[INFO ][20170717 21:03:57,023][ClientCnxn$SendThread:1207] Session establishment complete on server 47.93.23.61/47.93.23.61:2181, sessionid = 0x15cfd242e32042a, negotiated timeout = 30000
+[INFO ][20170717 21:03:57,025][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20170717 21:03:57,067][AbstractRegistry:302]  [DUBBO] Register: consumer://192.168.1.103/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-app-message&category=consumers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&side=consumer&timestamp=1500296634591, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,386][AbstractRegistry:325]  [DUBBO] Subscribe: consumer://192.168.1.103/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-app-message&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&side=consumer&timestamp=1500296634591, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,578][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url consumer://192.168.1.103/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-app-message&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&side=consumer&timestamp=1500296634591, urls: [dubbo://47.94.16.18:20886/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=8621&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500200072080, dubbo://47.94.92.65:20886/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?anyhost=true&application=roncoo-pay-service-trade&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=17476&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500199889319, empty://192.168.1.103/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-app-message&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&side=consumer&timestamp=1500296634591, empty://192.168.1.103/com.roncoo.pay.service.trade.api.RpTradePaymentQueryService?application=roncoo-pay-app-message&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&side=consumer&timestamp=1500296634591], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,807][AbstractClient:287]  [DUBBO] Successed connect to server /47.94.16.18:20886 from NettyClient 192.168.1.103 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x41de5768, /192.168.1.103:58603 => /47.94.16.18:20886]], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,807][AbstractClient:105]  [DUBBO] Start NettyClient /192.168.1.103 connect to the server /47.94.16.18:20886, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,896][AbstractClient:287]  [DUBBO] Successed connect to server /47.94.92.65:20886 from NettyClient 192.168.1.103 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x6c000e0c, /192.168.1.103:58604 => /47.94.92.65:20886]], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,897][AbstractClient:105]  [DUBBO] Start NettyClient /192.168.1.103 connect to the server /47.94.92.65:20886, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,905][ReferenceConfig:423]  [DUBBO] Refer dubbo service com.roncoo.pay.service.trade.api.RpTradePaymentQueryService from url zookeeper://47.93.23.61:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=roncoo-pay-app-message&check=false&default.accepts=1000&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.trade.api.RpTradePaymentQueryService&methods=listPaymentRecord,listPaymentRecordPage,getPayResult,getRecordByBankOrderNo,listPaymentOrderPage,getRecordByTrxNo&pid=3289&retries=0&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500296634591, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,937][AbstractRegistry:302]  [DUBBO] Register: consumer://192.168.1.103/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-app-message&category=consumers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&side=consumer&timestamp=1500296637922, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:57,975][AbstractRegistry:325]  [DUBBO] Subscribe: consumer://192.168.1.103/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-app-message&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&side=consumer&timestamp=1500296637922, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,188][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url consumer://192.168.1.103/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-app-message&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&side=consumer&timestamp=1500296637922, urls: [dubbo://47.94.92.65:20888/com.roncoo.pay.service.message.api.RpTransactionMessageService?anyhost=true&application=roncoo-pay-service-message&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendAllDeadMessageByQueueName,reSendMessageByMessageId,deleteMessageByMessageId,reSendMessage,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=17389&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500199859140, dubbo://47.94.16.18:20888/com.roncoo.pay.service.message.api.RpTransactionMessageService?anyhost=true&application=roncoo-pay-service-message&default.accepts=1000&default.threadpool=fixed&default.threads=500&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,reSendMessage,deleteMessageByMessageId,directSendMessage,saveMessageWaitingConfirm,setMessageToAreadlyDead,getMessageByMessageId,listPage&pid=8542&retries=0&revision=1.0.0-SNAPSHOT&side=provider&timestamp=1500200046546, empty://192.168.1.103/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-app-message&category=configurators&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&side=consumer&timestamp=1500296637922, empty://192.168.1.103/com.roncoo.pay.service.message.api.RpTransactionMessageService?application=roncoo-pay-app-message&category=routers&check=false&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&side=consumer&timestamp=1500296637922], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,201][AbstractClient:287]  [DUBBO] Successed connect to server /47.94.92.65:20888 from NettyClient 192.168.1.103 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x13e9f2e2, /192.168.1.103:58605 => /47.94.92.65:20888]], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,202][AbstractClient:105]  [DUBBO] Start NettyClient /192.168.1.103 connect to the server /47.94.92.65:20888, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,221][AbstractClient:287]  [DUBBO] Successed connect to server /47.94.16.18:20888 from NettyClient 192.168.1.103 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x0cd7f1ae, /192.168.1.103:58606 => /47.94.16.18:20888]], dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,222][AbstractClient:105]  [DUBBO] Start NettyClient /192.168.1.103 connect to the server /47.94.16.18:20888, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,224][ReferenceConfig:423]  [DUBBO] Refer dubbo service com.roncoo.pay.service.message.api.RpTransactionMessageService from url zookeeper://47.93.23.61:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=roncoo-pay-app-message&check=false&default.accepts=1000&default.timeout=30000&dubbo=2.5.3&interface=com.roncoo.pay.service.message.api.RpTransactionMessageService&methods=confirmAndSendMessage,saveAndSendMessage,reSendMessageByMessageId,reSendAllDeadMessageByQueueName,deleteMessageByMessageId,reSendMessage,directSendMessage,setMessageToAreadlyDead,saveMessageWaitingConfirm,getMessageByMessageId,listPage&pid=3289&retries=0&revision=1.0.0-SNAPSHOT&side=consumer&timestamp=1500296637922, dubbo version: 2.5.3, current host: 192.168.1.103
+[INFO ][20170717 21:03:58,267][ExecutorConfigurationSupport:165] Initializing ExecutorService  'threadPool'
+[INFO ][20170717 21:03:58,282][MessageTask:42] 定时任务开始执行>>>
+[INFO ][20170717 21:03:58,285][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:03:58,290][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:03:58,291][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:03:58,298][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:03:58,576][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:03:58,577][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:03:58,577][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:03:58,577][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:03:58,577][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:03:58,577][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:04:58,583][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:04:58,585][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:04:58,583][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:04:58,586][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:04:58,626][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:04:58,626][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:04:58,626][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:04:58,772][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:04:58,772][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:04:58,773][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:05:58,631][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:05:58,634][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:05:58,666][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:05:58,666][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:05:58,666][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:05:58,775][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:05:58,776][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:05:58,800][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:05:58,800][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:05:58,800][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:06:58,672][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:06:58,672][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:06:58,695][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:06:58,695][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:06:58,695][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:06:58,804][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:06:58,804][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:06:58,826][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:06:58,827][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:06:58,827][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:07:58,698][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:07:58,699][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:07:58,722][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:07:58,722][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:07:58,722][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:07:58,830][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:07:58,831][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:07:58,862][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:07:58,862][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:07:58,862][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:08:58,728][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:08:58,729][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:08:58,766][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:08:58,766][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:08:58,766][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:08:58,866][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:08:58,866][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:08:58,898][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:08:58,899][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:08:58,899][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:09:58,770][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:09:58,771][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:09:58,804][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:09:58,805][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:09:58,805][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:09:58,904][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:09:58,904][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:09:58,931][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:09:58,931][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:09:58,931][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:10:58,807][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:10:58,808][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:10:58,833][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:10:58,833][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:10:58,833][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:10:58,934][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:10:58,935][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:10:58,959][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:10:58,959][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:10:58,960][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:11:58,837][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:11:58,838][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:11:58,860][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:11:58,860][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:11:58,860][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:11:58,965][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:11:58,966][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:11:58,990][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:11:58,991][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:11:58,992][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:12:58,867][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:12:58,867][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:12:58,896][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:12:58,896][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:12:58,897][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:12:58,999][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:12:58,999][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:12:59,023][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:12:59,023][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:12:59,024][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:13:58,904][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:13:58,905][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:13:58,932][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:13:58,932][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:13:58,933][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:13:59,029][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:13:59,030][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:13:59,061][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:13:59,062][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:13:59,062][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:14:58,936][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:14:58,936][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:14:59,038][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:14:59,039][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:14:59,039][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:14:59,069][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:14:59,070][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:14:59,239][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:14:59,239][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:14:59,240][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:15:59,044][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:15:59,046][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:15:59,067][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:15:59,068][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:15:59,068][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:15:59,245][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:15:59,246][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:15:59,271][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:15:59,272][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:15:59,272][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:16:59,076][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:16:59,078][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:16:59,101][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:16:59,102][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:16:59,102][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:16:59,278][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:16:59,278][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:16:59,299][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:16:59,300][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:16:59,300][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:17:59,108][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:17:59,109][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:17:59,186][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:17:59,187][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:17:59,187][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:17:59,306][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:17:59,306][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:17:59,333][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:17:59,334][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:17:59,334][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:18:59,192][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:18:59,194][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:18:59,329][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:18:59,329][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:18:59,329][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:18:59,338][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:18:59,338][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:18:59,363][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:18:59,363][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:18:59,364][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:19:59,337][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:19:59,339][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:19:59,362][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:19:59,363][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:19:59,363][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:19:59,366][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:19:59,367][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:19:59,388][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:19:59,389][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:19:59,389][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:20:59,368][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:20:59,370][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:20:59,397][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:20:59,398][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:20:59,401][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:20:59,401][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:20:59,401][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:20:59,421][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:20:59,422][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:20:59,422][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:21:59,405][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:21:59,406][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:21:59,429][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:21:59,430][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:21:59,430][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:21:59,431][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:21:59,431][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:21:59,456][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:21:59,457][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:21:59,457][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:22:59,439][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:22:59,439][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:22:59,464][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:22:59,465][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:22:59,473][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:22:59,473][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:22:59,473][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:22:59,610][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:22:59,610][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:22:59,611][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:23:59,477][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:23:59,477][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:23:59,508][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:23:59,509][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:23:59,509][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:23:59,615][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:23:59,615][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:23:59,640][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:23:59,641][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:23:59,641][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:24:59,514][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:24:59,515][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:24:59,537][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:24:59,538][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:24:59,538][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:24:59,646][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:24:59,647][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:24:59,672][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:24:59,673][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:24:59,673][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:25:59,545][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:25:59,546][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:25:59,580][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:25:59,580][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:25:59,580][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:25:59,679][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:25:59,680][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:25:59,705][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:25:59,705][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:25:59,705][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:26:59,585][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:26:59,585][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:26:59,607][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:26:59,607][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:26:59,607][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:26:59,711][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:26:59,712][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:26:59,731][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:26:59,732][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:26:59,732][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:27:59,612][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:27:59,612][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:27:59,639][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:27:59,640][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:27:59,640][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:27:59,739][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:27:59,739][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:27:59,760][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:27:59,760][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:27:59,760][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:28:59,646][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:28:59,648][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:28:59,671][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:28:59,671][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:28:59,671][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:28:59,764][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:28:59,766][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:28:59,799][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:28:59,799][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:28:59,799][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:29:59,679][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:29:59,680][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:29:59,701][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:29:59,701][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:29:59,701][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:29:59,806][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:29:59,807][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:29:59,833][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:29:59,834][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:29:59,834][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:30:59,707][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:30:59,709][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:30:59,738][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:30:59,738][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:30:59,738][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:30:59,841][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:30:59,842][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:30:59,866][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:30:59,866][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:30:59,866][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:31:59,744][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:31:59,746][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:31:59,767][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:31:59,767][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:31:59,768][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:31:59,873][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:31:59,874][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:31:59,902][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:31:59,903][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:31:59,903][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:32:59,772][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:32:59,774][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:32:59,806][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:32:59,807][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:32:59,807][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:32:59,909][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:32:59,910][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:32:59,939][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:32:59,940][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:32:59,940][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:33:59,810][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:33:59,812][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:33:59,851][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:33:59,852][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:33:59,852][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:33:59,945][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:33:59,947][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:33:59,978][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:33:59,978][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:33:59,978][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:34:59,855][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:34:59,857][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:34:59,890][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:34:59,891][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:34:59,891][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:34:59,984][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:34:59,985][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:35:00,007][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:35:00,007][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:35:00,008][MessageTask$2:74] [SENDING]睡眠60秒
+[INFO ][20170717 21:35:59,897][MessageTask$1:52] 执行(处理[waiting_confirm]状态的消息)任务开始
+[INFO ][20170717 21:35:59,898][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:35:59,920][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:35:59,920][MessageTask$1:54] 执行(处理[waiting_confirm]状态的消息)任务结束
+[INFO ][20170717 21:35:59,920][MessageTask$1:57] [waiting_confirm]睡眠60秒
+[INFO ][20170717 21:36:00,014][MessageTask$2:70] 执行(处理[SENDING]的消息)任务开始
+[INFO ][20170717 21:36:00,014][MessageScheduledImpl:121] ==>pageNum:1, numPerPage:2000
+[INFO ][20170717 21:36:00,037][MessageScheduledImpl:125] ==>recordList is empty
+[INFO ][20170717 21:36:00,038][MessageTask$2:72] 执行(处理[SENDING]的消息)任务结束
+[INFO ][20170717 21:36:00,038][MessageTask$2:74] [SENDING]睡眠60秒

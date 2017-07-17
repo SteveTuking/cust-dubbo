@@ -1,0 +1,9 @@
+[INFO ][20170710 23:38:34,235][AbstractApplicationContext:513] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6057f993: startup date [Mon Jul 10 23:38:34 CST 2017]; root of context hierarchy
+[INFO ][20170710 23:38:34,311][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring/spring-context.xml]
+[INFO ][20170710 23:38:35,027][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring/spring-notify.xml]
+[INFO ][20170710 23:38:35,066][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring/spring-activemq.xml]
+[INFO ][20170710 23:38:35,104][XmlBeanDefinitionReader:316] Loading XML bean definitions from class path resource [spring/spring-dubbo-consumer.xml]
+[INFO ][20170710 23:38:35,170][?:?] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO ][20170710 23:38:35,437][PropertiesLoaderSupport:172] Loading properties file from class path resource [public_system.properties]
+[INFO ][20170710 23:38:35,438][PropertiesLoaderSupport:172] Loading properties file from class path resource [mq_config.properties]
+[INFO ][20170710 23:38:35,448][AutowiredAnnotationBeanPostProcessor:141] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring

@@ -30,11 +30,11 @@
 		</dependency>
 
 		<!-- tcc-transaction begin -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.mengyun</groupId>
 			<artifactId>tcc-transaction-api</artifactId>
 			<version>${tcc.version}</version>
-		</dependency>
+		</dependency> -->
 		<!-- tcc-transaction begin -->
 
 		<!-- http://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
