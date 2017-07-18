@@ -81,9 +81,9 @@
 		  init-method="init" destroy-method="clone">
 		<!-- 基本属性driverClassName、 url、user、password -->
 		<property name="driverClassName" value="${account.jdbc.driver}" />
-		<property name="url" value="${account.tcc.jdbc.url}" />
-		<property name="username" value="${account.jdbc.username}" />
-		<property name="password" value="${account.jdbc.password}" />
+		<property name="url" value="${tcc.jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
 
 		<!-- 配置初始化大小、最小、最大 -->
 		<!-- 通常来说，只需要修改initialSize、minIdle、maxActive -->
