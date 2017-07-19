@@ -80,7 +80,7 @@
 	<bean id="tccDataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		  init-method="init" destroy-method="clone">
 		<!-- 基本属性driverClassName、 url、user、password -->
-		<property name="driverClassName" value="${account.jdbc.driver}" />
+		<property name="driverClassName" value="${jdbc.driver}" />
 		<property name="url" value="${tcc.jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
