@@ -38,6 +38,7 @@
 		<module>cust-pay-web-message</module>
 		<module>cust-pay-app-queue</module>
 		<module>cust-pay-service-accounting-api</module>
+		<module>cust-pay-web-sample-shop</module>
   </modules>
 
 	<distributionManagement>

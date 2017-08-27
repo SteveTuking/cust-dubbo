@@ -95,7 +95,7 @@ public class MessageScheduledImpl implements MessageScheduled {
 			paramMap.put("areadlyDead", PublicEnum.NO.name());// 取存活的发送中消息
 
 			Map<String, RpTransactionMessage> messageMap = getMessageMap(numPerPage, maxHandlePageCount, paramMap);
-			
+
 			messageBiz.handleSendingTimeOutMessage(messageMap);
 		} catch (Exception e) {
 			log.error("处理发送中的消息异常" + e);

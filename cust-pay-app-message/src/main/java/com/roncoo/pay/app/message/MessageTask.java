@@ -52,7 +52,7 @@ public class MessageTask {
 						log.info("执行(处理[waiting_confirm]状态的消息)任务开始");
 						settScheduled.handleWaitingConfirmTimeOutMessages();
 						log.info("执行(处理[waiting_confirm]状态的消息)任务结束");
-						
+
 						try {
 							log.info("[waiting_confirm]睡眠60秒");
 							Thread.sleep(60000);
